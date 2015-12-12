@@ -3,7 +3,7 @@ float y;
 float easing = 0.05;
 
 void setup() {
-  size(width, 360); 
+  size(1000, 360); 
   noStroke();  
 }
 
