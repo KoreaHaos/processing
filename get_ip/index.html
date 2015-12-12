@@ -7,11 +7,12 @@
 	<script type="application/javascript">
     function getip(json){
       alert(json.ip); // alerts the ip address
+	  return "Call Made";
     }
 </script>
 	<script type="application/javascript">
     function returnSomething(){
-      return "HELLO BEN!"; // alerts the ip address
+      return "HELLO!"; // Returns a string
     }
 </script>
 
@@ -19,11 +20,13 @@
 
    </HEAD>
 <BODY>
-<p>Get_ip folder</p>
+<p>get_ip folder</p>
 <p> Hello!</p>
 <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Click me to display Date and Time.</button>
 <p id="demo"></p>
 <button type="button" onclick="document.getElementById('demo2').innerHTML = returnSomething()">Click me to display returnSomething's return.</button>
 <p id="demo2"></p>
+<button type="button" onclick="document.getElementById('demo3').innerHTML = getip(json)">Click me to display returnSomething's return.</button>
+<p id="demo3"></p>
 </BODY>
 </HTML>
