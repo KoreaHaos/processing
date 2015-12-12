@@ -1,1 +1,4 @@
 LINK : http://koreahaos.github.io/processing/
+
+Problems Encountered:
+Can not get input using the g4p library.
