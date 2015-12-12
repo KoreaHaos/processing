@@ -9,13 +9,21 @@
       alert(json.ip); // alerts the ip address
     }
 </script>
+	<script type="application/javascript">
+    function returnSomething(){
+      return "HELLO BEN!"; // alerts the ip address
+    }
+</script>
 
 <script type="application/javascript" src="http://www.telize.com/jsonip?callback=getip"></script>  
+
    </HEAD>
 <BODY>
 <p>get_ip folder</p>
 <p> Hello!</p>
 <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Click me to display Date and Time.</button>
 <p id="demo"></p>
+<button type="button" onclick="document.getElementById('demo2').innerHTML = Date()">Click me to display returnSomething's return.</button>
+<p id="demo2"></p>
 </BODY>
 </HTML>
